@@ -19,7 +19,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 # RAW DATA LOAD
-data = pd.read_csv(r"/home/sayan/Programing/PYTHON_PROGRAMMING/PROJECT/DATA/cancer_data.csv")
+data = pd.read_csv(r"cancer_data.csv")
 data_final = data[["diagnosis", "radius_mean", "texture_mean"]]
 
 # CONVERT DATA TO LIST
